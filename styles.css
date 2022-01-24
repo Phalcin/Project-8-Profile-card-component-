@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  --cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(/images/bg-pattern-top.svg),
+    url(/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 25em left -650px, top 27em right -650px;
+  background-size: cover;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.main-container {
+  background: white;
+  width: 400px;
+  margin: 14rem auto;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.main-image {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.victor-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+  border: 8px solid white;
+  margin-left: 8rem;
+  margin-top: -5rem;
+  max-width: 100%;
+}
+
+.name {
+  text-align: center;
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+}
+
+.number {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.city-name {
+  font-size: 1rem;
+  color: hsl(227, 10%, 46%);
+  margin-bottom: 2rem;
+}
+
+.section2-container {
+  border-top: 1px solid rgba(0, 0, 0, 0.116);
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.section2-container li {
+  margin: 0 2rem 0 0;
+}
+
+.section2-container h1 {
+  color: hsl(229, 23%, 23%);
+}
+
+.section2-container div {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: hsl(227, 10%, 46%);
+}
